@@ -1,0 +1,17 @@
+@import './dashboard.scss';
+@import './edittodo.scss';
+
+.todo-table {
+    .search {
+        width: 35%;
+        float: right;
+        margin: 10px 0;
+    }
+
+    .results-table {
+
+        max-height: 350px;
+        overflow: auto;
+        margin-bottom: 53px;
+    }
+}
